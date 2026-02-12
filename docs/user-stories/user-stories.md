@@ -42,15 +42,15 @@
 **So that** I can access TrackIT features and link my services
 
 **Acceptance Criteria:**
-- [ ] <!-- AC1: User must provide email, username, and password -->
-- [ ] <!-- AC2: user can't register if there's another user with the same "username" || "email" -->
-- [ ] <!-- AC3: Email must be valid format (user@domain.com) -->
-- [ ] <!-- AC4: Password must be at least 8 characters with 1 number and 1 special character -->
-- [ ] <!-- AC5: Username must be 3-20 characters, alphanumeric only -->
-- [ ] <!-- AC6: System shows inline validation errors for invalid fields -->
-- [ ] <!-- AC7: User cannot submit form until all validations pass -->
-- [ ] <!-- AC8: User receives confirmation email after successful registration -->
-- [ ] <!-- AC9: once register is completed, when querying for this specific user I get his ID correctly -->
+- [ ] AC1: User must provide email, username, and password
+- [ ] AC2: User can't register if there's another user with the same username or email
+- [ ] AC3: Email must be valid format (user@domain.com)
+- [ ] AC4: Password must be at least 8 characters with 1 number and 1 special character
+- [ ] AC5: Username must be 3-20 characters, alphanumeric only
+- [ ] AC6: System shows inline validation errors for invalid fields
+- [ ] AC7: User cannot submit form until all validations pass
+- [ ] AC8: User receives confirmation email after successful registration
+- [ ] AC9: Once register is completed, when querying for this specific user I get his ID correctly
 
 **Priority:** High
 **Status:** To Do
@@ -64,12 +64,12 @@
 **So that** I can access my account
 
 **Acceptance Criteria:**
-- [ ] <!-- AC1: User must provide email or username, and password -->
-- [ ] <!-- AC2: System validates credentials against stored data -->
-- [ ] <!-- AC3: Email must be valid format (user@domain.com) -->
-- [ ] <!-- AC4: System shows inline validation errors for non macthing fields (user does not exist, password incorrect) -->
-- [ ] <!-- AC5: User gets into his/her own TrackIT dashboard in a correct login attempt -->
-- [ ] <!-- AC6: Failed attempts are rate-limited (e.g., 5 attempts before cooldown) -->
+- [ ] AC1: User must provide email or username, and password
+- [ ] AC2: System validates credentials against stored data
+- [ ] AC3: Email must be valid format (user@domain.com)
+- [ ] AC4: System shows inline validation errors for non matching fields (user does not exist, password incorrect)
+- [ ] AC5: User gets into his/her own TrackIT dashboard in a correct login attempt
+- [ ] AC6: Failed attempts are rate-limited (e.g., 5 attempts before cooldown)
 
 **Priority:** High
 **Status:** To Do
@@ -83,7 +83,7 @@
 **So that** I can acess TrackIT features and link my services
 
 **Acceptance Criteria:**
-- [ ] <!-- AC1: User must select one of the providers to log in -->
+- [ ] AC1: User must select one of the providers to log in
 
 **Priority:** High
 **Status:** To Do
@@ -97,10 +97,10 @@
 **So that** I can acess TrackIT features back
 
 **Acceptance Criteria:**
-- [ ] <!-- AC1: User must select the Forgotten Password? hyperlink -->
-- [ ] <!-- AC2: When Forgotten Password? ref is selected a new window pops up where user prompts the email of the forgotten account -->
-- [ ] <!-- AC3: User must confirm the email introduced is correct to begin the process of password recovery -->
-- [ ] <!-- AC4: After confirmed, user is prompted that whether email/username exists he will be receiving an email with instructions to update his password -->
+- [ ] AC1: User must select the Forgotten Password? hyperlink
+- [ ] AC2: When Forgotten Password? ref is selected a new window pops up where user prompts the email of the forgotten account
+- [ ] AC3: User must confirm the email introduced is correct to begin the process of password recovery
+- [ ] AC4: After confirmed, user is prompted that whether email/username exists he will be receiving an email with instructions to update his password
 
 **Priority:** Medium-High
 **Status:** To Do
@@ -114,12 +114,12 @@
 **So that** I don't have to log in every time
 
 **Acceptance Criteria:**
-- [ ] <!-- AC1: User session persists after closing and reopening the app -->
-- [ ] <!-- AC2: Auth tokens are stored securely (Keychain/Keystore, not plain storage) -->
-- [ ] <!-- AC3: Session expires after 30 days of inactivity -->
-- [ ] <!-- AC4: Expired tokens are automatically refreshed if refresh token is valid -->
-- [ ] <!-- AC5: User is redirected to login if session cannot be restored -->
-- [ ] <!-- AC6: "Remember me" option extends session duration (optional) -->
+- [ ] AC1: User session persists after closing and reopening the app
+- [ ] AC2: Auth tokens are stored securely (Keychain/Keystore, not plain storage)
+- [ ] AC3: Session expires after 30 days of inactivity
+- [ ] AC4: Expired tokens are automatically refreshed if refresh token is valid
+- [ ] AC5: User is redirected to login if session cannot be restored
+- [ ] AC6: "Remember me" option extends session duration (optional)
 
 **Priority:** High
 **Status:** To Do
@@ -133,7 +133,7 @@
 **So that** I can switch accounts, create a new one, or just exit the app
 
 **Acceptance Criteria:**
-- [ ] <!-- AC1: After pressing the log out button user is redirected to log in with its session terminated -->
+- [ ] AC1: After pressing the log out button user is redirected to log in with its session terminated
 
 **Priority:** High
 **Status:** To Do
