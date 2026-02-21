@@ -1,8 +1,12 @@
+import 'dotenv/config';
 import Fastify from 'fastify';
+import { spotifyRoutes } from './routes/spotify';
 
 const server = Fastify({
 	logger: true
 });
+
+server.register(spotifyRoutes);
 
 server.get('/', async (request, reply) => {
 	return { hello: 'word' }
